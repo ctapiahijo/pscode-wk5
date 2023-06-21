@@ -1,10 +1,20 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+int a;
+int b;
+int c = a + b;
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+int a;
+if(a % 2 = 0)
+{
+	Even
+}
+else
+{
+	Odd
+}
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +24,36 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+//Finding the average
+int a,b,c,d,e;
+int average = (a+b+c+d+e) / 5;
+
+//Finding the smallest and largest
+
+//Create Function
+	void FindSmallAndLarge(int a, int b, int c, int d, int e)
+	{
+		//push all 5 integers into a list.
+		int list = a,b,c,d,e
+		//Create container for small and large
+		int Max = list[0];
+		int Min = list[0];
+		//iterate over the list
+		for(int i = 0; i < list.size(); ++i)
+		{
+			if( list[i] > Max) //if i is greater than Max then, we will assign i to Max
+			{
+				Max = list[i];
+			}
+		}
+		for(int i = 0; i < list.size(); ++i) // if i is less than Min then, we will assign i to Min
+			if(list[i] < Min)
+			{
+				Min = list[i];
+			}
+		{
+		
+
+	}
 
 -- END --
